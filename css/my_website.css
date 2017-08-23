@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+
+li.o {
+    list-style-type: none;
+
+}
+h1.text-center.top {
+    position: relative;
+    top: 10px;
+    opacity: 0.4;
+    font-size: 62px;
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Encode Sans', sans-serif;
+
+}
+
+body.img-background{
+    background-image: url("../img/nerdy.jpg");
+   background-size: cover;
+   ;
+
+
+
+
+  }
+
+div.container.background {
+    width: 100%;
+    height: 100%;
+}
+
+footer.footer {
+    position: relative;
+
+}
+
+
+button.btn-default.marge {
+    margin: 25px;
+    border-radius: 25px;
+    background: linear-gradient(to right, #010101, #ff0013);
+    font-weight: bold;
+    font-family: 'Encode Sans', sans-serif;
+    color: whitesmoke;
+    border: 2px solid gray;
+    text-decoration: wavy;
+
+
+
+}
+
+div.row.two{
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ul.navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+}
+ li.nav-items {
+     display: inline-block;
+     font-size: 20px;
+     padding: 20px;
+     font-weight: bold;
+     font-family: 'Encode Sans', sans-serif;
+ }
+ a.no-deco{
+     text-decoration: none;
+     color: whitesmoke;
+     opacity: 0.5;
+     position: relative;
+     right: 40px;
+ }
+a.no-deco:hover {
+    color: #ff5915;
+}
+h1.bio-big{
+    position: relative;
+    top: 80px;
+    text-align: center;
+    color: #ffffff;
+    opacity:0.6;
+    font-family: 'Lobster', cursive;
+   margin-right: 20px;
+    margin-left: 20px;
+
+
+}
+h2.h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 35px;
+    color: whitesmoke;
+    opacity: 0.3;
+}
