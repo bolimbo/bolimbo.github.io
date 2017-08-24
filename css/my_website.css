@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Encode+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
-
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 li.o {
     list-style-type: none;
 
@@ -9,20 +9,23 @@ li.o {
 h1.text-center.top {
     position: relative;
     top: 10px;
-    opacity: 0.4;
+    opacity: 0.6;
     font-size: 62px;
     width: 100%;
     font-weight: bold;
     color: white;
     font-family: 'Encode Sans', sans-serif;
+    background-image: url("../img/1J1jxn7.jpg");
+    height:100%;
 
 }
 
-body.img-background{
-    background-image: url("../img/nerdy.jpg");
-   background-size: cover;
-   ;
-
+div.img-background{
+    background-image: url("../img/nerdy.jpg")!important;
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    width:100%;
 
 
 
@@ -58,6 +61,7 @@ div.row.two{
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
 ul.navigation {
     position: fixed;
@@ -72,6 +76,7 @@ ul.navigation {
      padding: 20px;
      font-weight: bold;
      font-family: 'Encode Sans', sans-serif;
+
  }
  a.no-deco{
      text-decoration: none;
@@ -79,6 +84,7 @@ ul.navigation {
      opacity: 0.5;
      position: relative;
      right: 40px;
+
  }
 a.no-deco:hover {
     color: #ff5915;
@@ -90,14 +96,92 @@ h1.bio-big{
     color: #ffffff;
     opacity:0.6;
     font-family: 'Lobster', cursive;
-   margin-right: 20px;
-    margin-left: 20px;
+   margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 0;
 
 
 }
 h2.h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 35px;
-    color: whitesmoke;
-    opacity: 0.3;
+    color: #ff5a41;
+    opacity: 0.8;
+    position: relative;
+    top: 20px;
+
+}
+h2.h2.text-center{
+    margin: 0;
+}
+
+a.abajo {
+    position: relative;
+
+    top: 100px;
+
+}
+
+ul.list-for-tech li.lista{
+    position: relative ;
+    right: 30px;
+    top: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+    opacity: 0.4;
+
+}
+
+
+#titles
+{
+    position: absolute;
+    width: 18em;
+    height: 50em;
+    bottom: 0;
+    left: 50%;
+    margin-left: -9em;
+    font-size: 350%;
+    font-weight: bold;
+    text-align: justify;
+    overflow: hidden;
+    transform-origin: 50% 100%;
+    transform: perspective(300px) rotateX(25deg);
+
+}
+
+#titles:after
+{
+    position: absolute;
+    content: ' ';
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+    background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+    pointer-events: none;
+}
+
+#titlecontent
+{
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 4s infinite;
+
+}
+
+@keyframes scroll {
+    0% { top: 100%; }
+    100% { top: -170%; }
+}
+
+p.p-color{
+    color: #ffea3f;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: 60px;
+
+
 }
