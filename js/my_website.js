@@ -4,9 +4,10 @@
 
 $(".boton").on("click", function () {
 
-    $(".h2").css("color", "gray");
+    $(".h2").css("color", "papayawhip");
     $(".h2").css("font-size", "50px");
-    $(".h2").html("The force is with me......").fadeToggle(3000, .01)
+    $(".h2").html("The force is with me......").fadeToggle(9000)
+
 
 
 
