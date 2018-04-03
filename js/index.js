@@ -1,4 +1,5 @@
 $(window).ready(function(){
+
 $(".boton").wrapInner('<div class=botontext></div>');
     
     $(".botontext").clone().appendTo( $(".boton") );

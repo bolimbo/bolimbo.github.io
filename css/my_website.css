@@ -203,3 +203,9 @@ div#dialog[title="Fight"] {
     background-color: red;
     font-weight: bold;
 }
+.colums {
+    height: 100px;
+    border-radius: 25%;
+    background-color: grey;
+    text-align: center;
+}

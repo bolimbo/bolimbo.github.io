@@ -70,7 +70,7 @@
     }
     
     .boton:hover .twist:before {
-        background: #fff;
+        background: #e66f42;
         transform: matrix3d(1, 0, 0, 0, 
                             0, 1, 0, 0, 
                             0, 0, 1, 0.003, 
@@ -78,7 +78,7 @@
     }
     
     .boton:hover .twist:after {
-        background: #dedae1;
+        background: #e66f42;
         transform: matrix3d(1, 0, 0, 0, 
                             0, 0, -1, 0.003, 
                             0, 1, 0, 0, 
@@ -132,7 +132,7 @@
     }
     
     .boton .botontext:nth-of-type(2) {
-        color: #fff;
+        color: #262626;
         top: 100%;
         transform-origin: center top 0px;
         transform: matrix3d(1, 0, 0, 0, 
